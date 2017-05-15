@@ -34,10 +34,23 @@
 // console.log( bar() );
 
 //NO.12
+// class Point{}
+// var p1 = new Point(2,3);
+// var p2 = new Point(3,2);
+// p1.__proto__.printName = function () { return 'Oops' };
+// p1.printName();     // "Oops"
+// p2.printName();     // "Oops"
+// var p3 = new Point(4,2);
+// p3.printName();     // "Oops"
+// console.log(p3.printName());
 
 //NO.13
+// let a=(x, y)=>({x,y});
+// console.log(a(1,2));
 
 //NO.14
+// let b=(x, y)=>{x,y};
+// console.log(b(1,2));
 
 //NO.15
 // let obj = {
