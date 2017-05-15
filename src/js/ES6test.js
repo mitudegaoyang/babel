@@ -7,22 +7,39 @@
 //NO.2
 
 //NO.3
-//NO.4
-//NO.5
-//NO.6
-//NO.7
-//NO.8
-//NO.9
-//NO.10
-//NO.11
 
+//NO.4
+
+//NO.5
+
+//NO.6
+
+//NO.7
+
+//NO.8
+
+//NO.9
+
+//NO.10
+
+//NO.11
+// function bar(x=y;y=2){
+//     return [x,y];
+// }
+// console.log( bar() );
 
 //NO.12
+
 //NO.13
+
 //NO.14
+
 //NO.15
+
 //NO.16
+
 //NO.17
+
 //NO.18
 // var objA = {a:1};
 // var objB = {a:2};
