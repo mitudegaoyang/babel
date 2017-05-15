@@ -27,6 +27,11 @@
 //     return [x,y];
 // }
 // console.log( bar() );
+//  题目出错？
+// function bar(x=y,y=2){
+//     return [x,y];
+// }
+// console.log( bar() );
 
 //NO.12
 
@@ -38,7 +43,14 @@
 
 //NO.16
 
-//NO.17
+//关于Object.assign的详细讲解    http://blog.csdn.net/qq_30100043/article/details/53422657
+//NO.17     下面代码中，v1、v2、v3分别是字符串、布尔值和数值，结果只有字符串合入目标对象（以字符数组的形式），数值和布尔值都会被忽略。这是因为只有字符串的包装对象，会产生可枚举属性。
+var v1 = 'abc';
+var v2 = true;
+var v3 = 10;
+
+var obj = Object.assign({}, v1, v2, v3);
+console.log(obj);
 
 //NO.18
 // var objA = {a:1};
@@ -46,7 +58,9 @@
 // var objC = {B:3};
 // var obj = Object.assign({},objA,objB,objC);
 // console.log(obj);
+// console.log(obj.a===objB.a);
 // obj.a=4;
+// console.log(obj.a===objB.a);
 // console.log(objA,objB);
 
 //NO.19     obj.a===objB.a=>true
