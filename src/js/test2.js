@@ -1,10 +1,8 @@
 /**
  * Created by gaotianyang on 2017/5/11 15:16
  **/
-var a = [];
-for (let i = 0; i < 10; i++) {
-    a[i] = function () {
-        console.log(i);
-    };
-}
-a[6](); // 6
+let [foo, [[bar], baz]] = [1, [[2], 3]];
+
+console.log(foo);     // 1
+console.log(bar);     // 2
+console.log(baz);     // 3
