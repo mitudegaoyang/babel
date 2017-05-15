@@ -21,6 +21,12 @@
 //NO.9
 
 //NO.10
+// function foo() {
+//     export default 'bar';
+// }
+// foo();
+//  https://github.com/ruanyf/es6tutorial/search?utf8=%E2%9C%93&q=export%20default%20%27bar%27
+//  上面代码中，`export`语句放在函数之中，结果报错。
 
 //NO.11
 // function bar(x=y;y=2){
@@ -117,3 +123,36 @@
 // console.log(c);
 
 //NO.22
+// class Point {
+//
+//     constructor() {
+//         this.x = 1;
+//         this.y = 1;
+//     }
+//
+//     toString() {
+//         return '(' + this.x + ', ' + this.y + ')';
+//     }
+//
+// }
+// class Point1 extends Point{
+//     constructor( color) {
+//         super();
+//         this.color = color;
+//     }
+//
+//     toString() {
+//         return this.color + ' ' + super.toString();
+//     }
+//     change() {
+//         this.x = 2;
+//     }
+// }
+// let cp = new Point1('red');
+// let cp1 = new Point1('red');
+// cp.change();
+// cp.toString();
+// cp1.toString();
+// console.log(cp.change());
+// console.log(cp.toString());
+// console.log(cp1.toString());
