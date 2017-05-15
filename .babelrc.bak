@@ -1,0 +1,36 @@
+{
+  "presets": [
+      "es2015",
+      "react",
+      "stage-2"
+      ],
+  "plugins": []
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# ES2015转码规则
+$ yarn add babel-preset-es2015 --dev
+
+# react转码规则
+$ yarn add babel-preset-react --dev
+
+# ES7不同阶段语法提案的转码规则（共有4个阶段），选装一个
+$ yarn install --save-dev babel-preset-stage-0
+$ yarn install --save-dev babel-preset-stage-1
+$ yarn install --save-dev babel-preset-stage-2
+$ yarn install --save-dev babel-preset-stage-3
