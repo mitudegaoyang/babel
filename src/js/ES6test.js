@@ -15,6 +15,8 @@
 //NO.9
 //NO.10
 //NO.11
+
+
 //NO.12
 //NO.13
 //NO.14
@@ -22,16 +24,25 @@
 //NO.16
 //NO.17
 //NO.18
-//NO.19
-var objA = {a: {b: 1}};
-var objB = {a: {b: 2}};
-var obj = Object.assign({},objA,objB)
-obj.a.b = 3;
-console.log(objA);
-console.log(objB);
-console.log(obj);
+// var objA = {a:1};
+// var objB = {a:2};
+// var objC = {B:3};
+// var obj = Object.assign({},objA,objB,objC);
+// console.log(obj);
+// obj.a=4;
+// console.log(objA,objB);
 
-//NO.20
+//NO.19     obj.a===objB.a=>true
+// var objA = {a: {b: 1}};
+// var objB = {a: {b: 2}};
+// var obj = Object.assign({},objA, objB);
+// obj.a.b = 3;
+// console.log(objA);
+// console.log(objB);
+// console.log(obj);
+// // console.log(obj.a===objB.a);     //true
+
+//NO.20     ...c是前面内容匹配剩下的
 // let {a, b , ...c} = {a:1, b: 2, d:3,e:4}
 // console.log(c);
 
