@@ -2,6 +2,6 @@
  * Created by gaotianyang on 2017/5/11 14:03
  **/
 
-let b = 1;
+for (let i = 0; i < 10; i++) {}
 
-var selected2 = allJobs.filter(job => job.isSelected());
+console.log(i);
