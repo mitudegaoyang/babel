@@ -11,14 +11,39 @@
 //NO.4
 
 //NO.5
+let b = {
+    name: 'lixingpeng',
+    age: '18',
+    sayMsg: function(){
+        setTimeout(function(){
+            console.log(this.name+" 的age是 "+this.age);
+        })
+    }
+};
 
-//NO.6
+let c= {
+    name: 'lixingpeng',
+    age: '18',
+    sayMsg: function(){
+        setTimeout(()=>{
+            console.log(this.name+" 的age是 "+this.age);
+        })
+    }
+};
 
-//NO.7
+b.sayMsg();
+c.sayMsg();
 
 //NO.8
+// var set1 = Array.from(new Set([1,1,2,2,33,'33',44,'44']));
+// console.log(set1);
 
 //NO.9
+// function move({x, y} = { x: 0, y: 0 }) {
+//     return [x, y];
+// }
+// move({x: 3, y: 8});
+// console.log(move({x: 3, y: 8}));
 
 //NO.10
 // function foo() {
