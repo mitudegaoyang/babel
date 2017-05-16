@@ -6,33 +6,47 @@
 
 //NO.2
 
+
 //NO.3
+// console.log(a);
+// let a = '1234';
+// var b = '1234';
+//
+// let a = '1234';
+// var b = '1234';
+// console.log(window.a);
+// console.log(window.b);
 
 //NO.4
+// const a = "qwe";
+// // a="1234"; //报错
+// const arr = [1,2,3,45,6];
+// arr.push(123);
+// console.log(arr); //[1,2,3,45,6,123]
 
 //NO.5
-let b = {
-    name: 'lixingpeng',
-    age: '18',
-    sayMsg: function(){
-        setTimeout(function(){
-            console.log(this.name+" 的age是 "+this.age);
-        })
-    }
-};
-
-let c= {
-    name: 'lixingpeng',
-    age: '18',
-    sayMsg: function(){
-        setTimeout(()=>{
-            console.log(this.name+" 的age是 "+this.age);
-        })
-    }
-};
-
-b.sayMsg();
-c.sayMsg();
+// let b = {
+//     name: 'lixingpeng',
+//     age: '18',
+//     sayMsg: function(){
+//         setTimeout(function(){
+//             console.log(this.name+" 的age是 "+this.age);
+//         })
+//     }
+// };
+//
+// let c= {
+//     name: 'lixingpeng',
+//     age: '18',
+//     sayMsg: function(){
+//         setTimeout(()=>{
+//             console.log(this.name+" 的age是 "+this.age);
+//         })
+//     }
+// };
+//
+// b.sayMsg();
+// c.sayMsg();
 
 //NO.8
 // var set1 = Array.from(new Set([1,1,2,2,33,'33',44,'44']));

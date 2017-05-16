@@ -35,7 +35,7 @@ console.log(window.a);
 console.log(window.b);
 ```
 
-[答案: undefind  undefind 1234]
+[答案: a is not defined  undefind 1234]
 
 #### 4. 对下面的输出结果给出合理解释：
 
