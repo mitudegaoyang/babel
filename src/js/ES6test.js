@@ -3,9 +3,20 @@
  **/
 
 //NO.1
+// let [a = 1, b = 2] = [2, 1];
+// console.log(a);
+// console.log(b);
 
 //NO.2
-
+// {
+//     function foo () { return 1 }
+//     console.log(foo());
+//     {
+//         function foo () { return 2 }
+//         foo() === 2;
+//     }
+//     console.log(foo());
+// }
 
 //NO.3
 // console.log(a);
